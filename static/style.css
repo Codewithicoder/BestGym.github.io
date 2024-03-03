@@ -1,0 +1,90 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0.9;
+    margin-top: 50px;
+    z-index: -1;
+    position: absolute;
+    background: url('/static/gym12.jpg') no-repeat center center;
+    background-size: cover;
+        
+}
+
+nav {
+    background-color: rgb(124 17 120);
+    padding: 12px 12px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    padding: 5px 14px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+
+}
+
+h2 {
+    text-align: left;
+    color:white;
+    margin: 25px;
+    margin-left: -343px;
+}
+
+.container {
+    margin: 15px auto;
+    font-weight: 23px;
+    max-width: 50%;
+    /* background-color: yellow; */
+}
+
+input,
+textarea {
+    display: block;
+    padding: 7px;
+    margin: 8px -351px;
+    width: 68%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.btn {
+    width: 105px;
+    /* text-align: center; */
+    /* display: block; */
+    margin: 20px auto;
+    padding: 3px 10px;
+    border-radius: 6px;
+    margin-left: -150px;
+    background-color: #b66db5;
+    cursor: pointer;
+}
+
+.btn:hover{
+    width: 105px;
+    /* text-align: center; */
+    /* display: block; */
+    margin: 20px auto;
+    padding: 3px 10px;
+    border-radius: 6px;
+    margin-left: -150px;
+    background-color: #722d71;
+    cursor: pointer;
+}
